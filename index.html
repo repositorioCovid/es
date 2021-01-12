@@ -1,0 +1,128 @@
+<!Doctype html>
+<html>
+ <head>
+    <title>This is the title of the webpage!</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Robert Marian Dragan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+ 	<main>
+
+ 		<!-- BANNER -->
+
+ 		<div id="banner" class="bg-light text-dark">
+	  		<h2 class="text-center">{Title Website}</h2>
+		</div>
+
+
+		<!-- MENU  -->
+
+ 		<header>
+ 			<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+			  <a class="navbar-brand" href="#">Menú</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Recursos en
+			        </a>
+			        <div class="dropdown-menu bg-primary text-dark" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="#">Videos</a>
+			          <a class="dropdown-item" href="#">Artículos</a>
+			          <div class="dropdown-divider"></div>
+			          <a class="dropdown-item" href="#" target="_blank">OMS</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Estadísticas
+			        </a>
+			        <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="https://covidstatistics.org/" target="_blank">covidstatistics.org</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Revistas Científicas / Medicina
+			        </a>
+			        <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="https://www.nejm.org/" target="_blank">nejm</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Secuencia del SARS-CoV-2
+			        </a>
+			        <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512" target="_blank">ncbi.nlm.nih.gov</a>
+			        </div>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Me Aburro
+			        </a>
+			        <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+			          <a class="dropdown-item" href="https://es.coursera.org/" target="_blank">Coursera</a>
+			          <a class="dropdown-item" href="https://www.edx.org/es" target="_blank">EdX</a>
+			          <a class="dropdown-item" href="https://es.khanacademy.org/" target="_blank">Khan Academy</a>
+			        </div>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			    </form>
+			  </div>
+			</nav>
+ 		</header>
+
+ 		<!-- MAIN PAGE -->
+
+ 		<section class="container">
+ 			<div id="hero" class="container mt-4">
+ 				<h2>
+ 					{Title WebSite} es un lugar dónde encontrarás enlaces a recursos con información sobre la enfermedad <strong>Covid-19</strong> y el virus que la causa, el <strong>Sars-Cov-2</strong>.
+ 				</h2>
+ 			</div>
+
+ 			<section id="list_of_resources" class="mt-4">
+ 				<article>
+ 					<div class="container">
+ 						<h2>Novedades!</h2>
+ 					</div>
+ 				</article>
+ 			</section>
+ 		</section>
+
+ 		<!-- FOOTER -->
+ 		<footer>
+			<div class="text-center mt-4 p-3 bg-primary text-white">
+				© 2021 Copyleft:
+		   		<a class="text-white" href="#">Robert Marian Dragan</a>
+		 	</div>
+		</footer>
+
+ 	</main>
+
+
+
+ 	<!-- BOOTSTRAP JS -->
+ 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ </body>
+</html>
