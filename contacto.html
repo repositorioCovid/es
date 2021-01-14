@@ -1,7 +1,7 @@
 <!Doctype html>
 <html>
  <head>
-    <title>Repositorio Covid</title>
+    <title>Repositorio Covid | Contacto |</title>
     <link rel="icon" type="image/png" href="img/blue-video-icon.png"/>
     <meta charset="UTF-8">
     <meta name="description" content="Repositorio con información sobre la enfermedad COVID-19 y el virus Sars-Cov-2">
@@ -21,6 +21,7 @@
 		*{
 			padding: 0px;
 			margin: 0px;
+
 		}
 
 		body{
@@ -30,6 +31,7 @@
 		@media only screen and (min-width: 600px) {
 			footer{
 				width: 100%;
+				position: fixed;
 				bottom: 0px;
 			}
 		}
@@ -131,7 +133,6 @@
 			  </div>
 			</nav>
  		</header>
-
  		<!-- MAIN PAGE -->
 
  		<section id="hero" class="container mt-4 mb-4">
@@ -143,11 +144,14 @@
  		</section>
 
  		<section id="articles-img" class="container mt-4">
- 			<article id="resources">
- 				<a href="vacunas.html"><img class="img-responsive" alt="Dibujo de una jeringuilla de color azul. Este enlace redirige a la página dónde se encuentran enlaces a prospectos de algunas de las actuales vacunas para la covid-19." onmouseout="this.src='img/blue-vaccine-icon.png';" onmouseover="this.src='img/red-vaccine-icon.png';" src="img/blue-vaccine-icon.png"></a>
- 				<a href="recursos-en-video.html"><img class="img-responsive" alt="Dibujo de un reproductor de video de color azul. Este enlace lleva a la sección de divulgación científica en video, un lugar dónde encontarás enlaces a vídeos que me han gustado o me parecen oportunos." onmouseout="this.src='img/blue-video-icon.png';" onmouseover="this.src='img/red-video-icon.png';" src="img/blue-video-icon.png"></a>
- 				<a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512" target="_blank"><img class="img-responsive" alt="Dibujo de secuencia de ARN de color azul. Este enlace redirige a la página oficial del 'National Center for Biotechnology Information' a la secuencia del Sars-Cov-2 realizada en Wuhan."  onmouseout="this.src='img/blue-rna-seq-icon.png';" onmouseover="this.src='img/red-rna-seq-icon.png';" src="img/blue-rna-seq-icon.png"></a>
- 				<a href="https://www.ine.es/"><img class="img-responsive" alt="Dibujo de una gráfica 2D con la representación de 4 grupos de datos. Este enlace redirige a la web oficial del INE(Instituto Nacional de Estadística)." onmouseout="this.src='img/blue-statistics-icon.png';" onmouseover="this.src='img/red-statistics-icon.png';" src="img/blue-statistics-icon.png"></a>
+ 			<article id="resources mt-4">
+ 				<div class="container">
+ 					<h2>CONTACTO</h2>
+ 					<p>
+ 						No dudes en contactarme ya sea para recomendarme nuevas fuentes de información, posibles mejoras relacionadas con la web, fallos o brechas de seguridad de la web, te has sentido ofendido con alguna cosa que haya podido publicar y quieres informarme de ello o cualquier otra cosa que se te pase por la cabeza.
+ 					</p>
+ 					<a class="btn btn-outline-primary" href="mailto:nucata96@gmail.com" style="text-decoration: none;">Enviar email</a>
+ 				</div>
  			</article>
  		</section>
 
@@ -166,8 +170,9 @@
 		   		<a class="text-white" href="contacto.html">Robert Marian Dragan</a>
 		 	</div>
 		</footer>
-
  	</main>
+
+
 
  	<!-- BOOTSTRAP JS -->
  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
